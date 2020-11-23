@@ -80,8 +80,8 @@ function App() {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" className={classes.title}>
-              Biden Winner
-          </Typography>
+
+            </Typography>
             <Box mr={3}>
               <Button color="inherit" variant="outlined" onClick={handleClickOpen}>Log In</Button>
               <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
@@ -121,7 +121,7 @@ function App() {
       </AppBar>
 
       <main>
-        <Paper className={classes.mainFeaturesPost} style={{ backgroundImage: `url(https://media.gq.com/photos/5db050ea9a6db20008f5f350/16:9/w_2560%2Cc_limit/GettyImages-1131449761.jpg)` }}>
+        <Paper className={classes.mainFeaturesPost} style={{ height: "400px", backgroundImage: `url(https://img1.goodfon.ru/original/960x854/5/8c/planeta-zvezda-sputnik-1120.jpg)` }}>
           <Container fixed>
             <div className={classes.overlay} />
             <Grid Container>
@@ -129,7 +129,6 @@ function App() {
 
                 <div className={classes.mainFeaturesPostContent}>
                   <Typography component="h1" variant="h3" color="primery" gutterBottom>
-                    <p>Joseph</p> Robinette <p>Biden Jr.</p>
                   </Typography>
                   <Typography variant="h5" color="inherit" paragraph>
                     Want to know what's next...?
